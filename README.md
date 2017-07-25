@@ -10,4 +10,5 @@ Python v2.7.13, Node 6.10.1, npm v5.3.0
 <li>Setup python libraries for GAE: <code>npm run lib</code></li>
 <li><<code>npm run flask</code> will bundle your src files and place them in their appropriate directories for use with flask./li>
 <li>Test your app by running <code>dev_appserver.py .</code>. You can also use <code>npm run appserver</code> as long as the path to dev_appserver.py is corect in the package.json file.</li>
+<li>Edit files in <code>src/</code> and <code>public/</code>, not <code>templates/</code> and <code>/static</code></li>
 </ul>
